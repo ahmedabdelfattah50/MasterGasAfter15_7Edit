@@ -340,8 +340,6 @@ footer .footerCopyRights p {
     margin: 0;
 }
 
-
-
 footer .footerCopyRights .iconsList {
     list-style: none;
     padding-top: 10px;
@@ -3266,9 +3264,9 @@ main .mainTools ul li .toolSectionData input {
         margin: 0 10px;
     }
 
-    .transferOffers .transferOffersSlider .transferOffersSection .transferOffersSectionContent {
+    /* .transferOffers .transferOffersSlider .transferOffersSection .transferOffersSectionContent {
         padding-top: 80px;
-    }
+    } */
     /* ============== End transferOffers =============== */
     /* ============== Start latestNews =============== */
     .latestNews .latestNewsSlider .latestNewsSection {
@@ -3276,7 +3274,7 @@ main .mainTools ul li .toolSectionData input {
     }
 
     .latestNews .latestNewsSlider .latestNewsSection .latestNewsSectionContent {
-        padding: 60px 20px 0;
+        padding: 0px 20px 0;
     }
 
     .latestNews .latestNewsSlider .slick-next {
@@ -4969,12 +4967,12 @@ main .mainTools ul li .toolSectionData input {
     }
     /* ============== End sliderAboutCompany =============== */
     /* ============== Start ourServices =============== */
-    .ourServices .paginator-center .buttonNextPrev {
-        width: 75%;
+    .ourServices .slick-prev {
+       left: -10px;
     }
-
-    .ourServices .paginator-center .buttonNextPrev i {
-        font-size: 20px;
+    
+    .ourServices .slick-next {
+        right: -10px;
     }
     /* ============== End ourServices =============== */
     /* ============== Start .gasOffers =============== */
@@ -4993,6 +4991,14 @@ main .mainTools ul li .toolSectionData input {
 
     .transferOffers .paginator-center .buttonNextPrev i {
         font-size: 20px;
+    }
+    
+    .transferOffers .slick-prev {
+        left: -10px;
+    }
+     
+    .transferOffers .slick-next {
+        right: -10px;
     }
     /* ============== End transferOffers =============== */
     /* ============== Start ourMaps_control =============== */
@@ -5040,6 +5046,14 @@ main .mainTools ul li .toolSectionData input {
     .latestNews .paginator-center .buttonNextPrev {
         width: 90%;
         top: 52%;
+    }
+
+    .latestNews .slick-prev {
+        left: -10px;
+    }
+     
+    .latestNews .slick-next {
+        right: -10px;
     }
     /* ============== End latestNews =============== */
     /* ============== Start ourPartners =============== */
